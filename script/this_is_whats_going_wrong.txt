@@ -1,0 +1,8 @@
+The small files sometimes do not contain all fields searched for.
+The problem is that all these fields are required!
+
+Without them, nothing works. How can I make them optional?
+The program's tab moving stuff should adjust to what's available.
+
+In Nest [...].txt:
+- SV/DA/NO get switched around, but FI is untouched.. odd.

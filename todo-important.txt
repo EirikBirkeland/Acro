@@ -1,0 +1,6 @@
+1. Either I pre-process all csv's by removing embedded newlines (already made), or 
+2. I post-process everything separately.
+
+ 1 is basically done, but the next steps do not like the output provided by Python
+
+SHORTCUT: since it is the uniq routine that messes it up, need only avoid it for now, even if it retains all the annoying duplicates.

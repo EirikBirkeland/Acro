@@ -1,0 +1,72 @@
+#!/bin/bash
+# define StackOverflow bit as function
+
+time {
+
+if [ $# -lt 1 ]; then
+        printf "\nUsage: $0 needs the magic password. Hint: 1993\n\n"
+        exit 1
+elif [ $1 = "pass" ]; then
+	printf "\nFixing the files, so you won't have to . . .\n\n"
+else
+	exit 1
+fi
+
+extract () {
+   awk -v FS='\t' -v OFS='\t' -v langs='en no da sv fi pos description' ' # variables from input
+   # Collect the appropriate column numbers from the first row.
+   NR==1 {
+       for (i=1; i<=NF; i++) {
+           if (match(langs, "\\<"$i"\\>")) {
+               col[i]++
+           }
+       }
+   }
+
+   {
+       # Walk the columns and if this column number is in our list of columns print the value out.
+       for (i=1; i<=NF; i++) {
+           if (i in col) {
+               printf "%s%s", $i, OFS
+           }
+       }
+       print ""
+   }' "$item" | awk 'BEGIN {FS=OFS="\t"} {print $5,$1,$4,$3,$2,$6,$7}' > "$item".txt
+}
+# ^ I should make it so that any empty variable contains two /t's
+#open_all_.*csv_files
+#feed into array $file
+shopt -s nullglob
+filearray=( *.csv )
+
+for item in "${filearray[@]}"
+do
+  extract "$item"
+done
+}
+
+#move files to subdir
+mkdir txt
+mv *.csv.txt txt
+
+#rename files
+cd txt
+shopt -s nullglob
+filearray=( *.csv.txt )
+for item in "${filearray[@]}"
+do
+  rename 's/^([^,]+),(gtt),([0-9]),([0-9]{4})([0-9]{2})([0-9]{2}).*.csv.txt$/$1___\U$2\E-$3__$6.$5.$4_NordicLang.txt/' "$item"
+done
+
+#fix Zone files
+shopt -s nullglob
+filearray=( Nest*.txt )
+for item in "${filearray[@]}"
+do
+  header=$(cat "$item" | head -1 | grep --color=never -P "en\tda\tsv\tno\tfi\tpos\tdescription")
+    if [[ $header =~ "en	da	sv	no	fi	pos	description" ]];then
+        printf "seems like it worked.\n"
+        awk -v FS="\t" -v OFS="\t" '{ print $1,$4,$2,$3,$5,$6,$7 }' "$item" > "$item".tmp
+        mv "$item".tmp "$item"
+    fi
+done

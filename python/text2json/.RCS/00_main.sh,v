@@ -1,0 +1,34 @@
+head	1.1;
+access;
+symbols;
+locks
+	eb:1.1; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2015.05.08.22.06.33;	author eb;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.1
+log
+@vim
+@
+text
+@#!/bin/bash
+
+shopt -s nullglob
+filearray=( *.txt )
+
+for item in "${filearray[@@]}"; do
+      python ../../text2json.py "$item" | ../../clean_up_json.sh > "$item".json
+done
+@

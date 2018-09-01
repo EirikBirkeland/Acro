@@ -1,0 +1,1591 @@
+gCloud = [
+	{
+		"EN": "rollback ",
+		"FI": " palauttaminen edelliseen versioon ",
+		"SV": "(sv) återställning ",
+		"DA": "(da) tilbagetrækning ",
+		"NO": "(no) rollback ",
+		"CLASS": " noun ",
+		"DEF": " A rollback is the undoing of partly completed database changes when a database transaction is determined to have failed. It returns the database to some previous state."
+	},
+
+	{
+		"EN": "Google BigQuery ",
+		"FI": " Google BigQuery ",
+		"SV": "(sv)  ",
+		"DA": "(da) Google BigQuery ",
+		"NO": "(no) Google BigQuery ",
+		"CLASS": " noun ",
+		"DEF": " A tool for rapidly querying large data sets. See live website: https://cloud.google.com/products/big-query"
+	},
+
+	{
+		"EN": "Memcache ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A high-performance, distributed memory object caching system, primarily intended for fast access to cached results of datastore queries."
+	},
+
+	{
+		"EN": "ancestor ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A datastore entity that is a parent of another entity."
+	},
+
+	{
+		"EN": "pending request queue ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A queue where pending requests wait when no instances are available to serve them."
+	},
+
+	{
+		"EN": "DoS ",
+		"FI": " DoS ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) DoS ",
+		"CLASS": " noun ",
+		"DEF": " DoS is the short form of �denial of service protection service�. The App Engine denial of service (DoS) protection service allows you to protect your application from running out of quota when subjected to denial of service attacks or similar forms of abuse. You can blacklist IP addresses or subnets, and the service drops requests routed from those addresses or subnets before App Engine calls your code. DoS Protection can be configured for Java applications using either dos.xml or dos.yaml. Python and Go applications must use dos.yaml"
+	},
+
+	{
+		"EN": "replication mode ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Replication settings for a database instance. Can be either synchronous or asynchronous."
+	},
+
+	{
+		"EN": "experimental ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " adjective ",
+		"DEF": " Features marked as Experimental are innovative new features that we are developing rapidly. The App Engine SLA does not support these features, and Google may make backwards-incompatible changes to them at any time."
+	},
+
+	{
+		"EN": "REST API ",
+		"FI": " REST-sovellusliittymä ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) REST API ",
+		"CLASS": " noun ",
+		"DEF": " REST: Representational State Transfer. A popular style of web API that tries to reuse the semantics of HTTP. Resources are represented as collections of URIs and verbs are the HTTP verbs. Endpoints and Apiary APIs provide a superset of this model. They tend to be RESTful at their core but can be extended with custom verbs"
+	},
+
+	{
+		"EN": "index ",
+		"FI": " hakemisto ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) indeks ",
+		"CLASS": " noun ",
+		"DEF": " Every Datastore query uses an index, a table containing the results for the query in the desired order. The Datastore maintains an index for every query an application intends to make. As the entities change, the Datastore updates the indexes with the correct results."
+	},
+
+	{
+		"EN": "App Engine Datastore ",
+		"FI": " App Enginen tietosäilö ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) App Engine Datastore ",
+		"CLASS": " noun ",
+		"DEF": " Also referred to as just Datastore. The Datastore is the Cloud Platform service that exposes Google's transactional storage stack to the outside world. Notes: Please leave in English."
+	},
+
+	{
+		"EN": "Cloud SQL ",
+		"FI": " Cloud SQL ",
+		"SV": "(sv)  ",
+		"DA": "(da) Cloud SQL ",
+		"NO": "(no) Cloud SQL ",
+		"CLASS": " noun ",
+		"DEF": " Google Cloud SQL is a web service that allows you to create, configure, and use relational databases that live in Google's cloud. It is a fully managed service that maintains, manages, and administers your databases, allowing you to focus on your applications and services. See live website: https://cloud.google.com/products/cloud-sql"
+	},
+
+	{
+		"EN": "Upload app ",
+		"FI": " Lataa sovellus ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Upload app ",
+		"CLASS": " noun ",
+		"DEF": " Upload app is a AppCfg command that you use to upload your application to App Engine. This is a required step after you have registered your application with the administration console."
+	},
+
+	{
+		"EN": "Data Processing and Analysis ",
+		"FI": " Tietojen käsittely ja analyysi ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) databehandling og -analyse ",
+		"CLASS": " noun ",
+		"DEF": " Data Processing and Analysis (DP&A) tools include MapReduce, Dremel, Sawzall, Dax, Flume, Millwheel, PatchPanel, and Pregel."
+	},
+
+	{
+		"EN": "namespace ",
+		"FI": " nimitila ",
+		"SV": "(sv) namnrymd ",
+		"DA": "(da) navneområde ",
+		"NO": "(no) navneområde ",
+		"CLASS": " noun ",
+		"DEF": " Namespace is primarily used in programming languages where the same name may be used for different objects. It is created to group together those names that might be repeated elsewhere within the same or interlinked programs, objects and elements. In Google Cloud Storage there is only one namespace, which means every bucket must have a unique name across the entire Google Cloud Storage namespace. Object names must be unique only within a given bucket."
+	},
+
+	{
+		"EN": "custom domain ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An additional domain, other than appspot.com, on which you can serve your app."
+	},
+
+	{
+		"EN": "web server gateway interface ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The web server gateway interface is a simple and universal interface between web servers and web applications or frameworks for the Python programming language."
+	},
+
+	{
+		"EN": "remote procedure call ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " In a remote procedure call (RPC), a computer program executes a method in another address space (commonly on another computer on a shared network) without the programmer explicitly coding the details for this remote interaction. From the programmer's point of view, the call is local to the executing program."
+	},
+
+	{
+		"EN": "parent entity ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A parent entity is the root of an entity group."
+	},
+
+	{
+		"EN": "cache miss ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Situation that occurs when the application looks for data in the cache and does not find it there. In this case, the application has to go all the way back to the datastore to get the data."
+	},
+
+	{
+		"EN": "pull queue ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A type of task queue in which a task consumer pulls tasks from your application, processes them outside your application, and then deletes them."
+	},
+
+	{
+		"EN": "VM ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Virtual machine. Generally a synonym for a GCE (Google Compute Engine) instance."
+	},
+
+	{
+		"EN": "reserved instance ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An instance that is always available to your application. When you sign up for reserved instances, you pre-commit to paying for a certain number of instance-hours per week, even if you don't use them all."
+	},
+
+	{
+		"EN": "pending latency ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The amount of time that a request spends in the pending request queue while waiting to be served."
+	},
+
+	{
+		"EN": "release ",
+		"FI": " julkaisu ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) utgave ",
+		"CLASS": " noun ",
+		"DEF": " A release is a defined version of a software product that is made available to customers or deployed (run) somewhere. As opposed to version, every release is of a specific version, but not every version is a release."
+	},
+
+	{
+		"EN": "synchronous ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " adjective ",
+		"DEF": " Describes events that occur at the same time. A data store replication strategy."
+	},
+
+	{
+		"EN": "push queue ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A type of task queue in which your application processes tasks using HTTP request handlers. Each task object contains an application-specific URL with a request handler for the task, and an optional data payload that parameterizes the task. For example, consider a calendaring application that needs to notify an invitee, via email, that an event has been updated. The data payload for this task consists of the email address and name of the invitee, along with a description of the event. You can use push queues only within the App Engine environment; if you need to access App Engine tasks from outside of App Engine, use pull queues instead."
+	},
+
+	{
+		"EN": "backend instance ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An instance that is exempt from request deadlines and has access to more memory and CPU than normal instances. Its duration is determined by your configuration with limited scaling based on your settings. App Engine provides backends for applications that need faster performance, large amounts of addressable memory, and continuous or long-running background processes. Backends are supported by Java, Python and Go."
+	},
+
+	{
+		"EN": "kindless ancestor query ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Type of query where App Engine Datastore returns all ancestors to a given entity in a query regardless of kind."
+	},
+
+	{
+		"EN": "entity group ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A set of entities whose keys all specify the same root entity."
+	},
+
+	{
+		"EN": "tag ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A metadata key-value pair associated with a GCE instance. You can assign tags to your instances to help coordinate or group virtual machines that may share common traits or attributes."
+	},
+
+	{
+		"EN": "kind ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An identifier that categorizes datastore entities with similar properties for the purpose of queries."
+	},
+
+	{
+		"EN": "Metadata queries ",
+		"FI": " Sisällönkuvaustietokyselyt ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) metadata-forespørsler ",
+		"CLASS": " noun ",
+		"DEF": " Metadata queries construct expressions that return metadata from your Datastore about namespaces, kinds, and properties. The queries return your metadata in dynamically generated entities. The most common use for metadata is to implement, for example, back-end administrative functions and meta-programming environments. For more info see: https://cloud.google.com/appengine/docs/java/datastore/metadataqueries#Java_Metadata_queries"
+	},
+
+	{
+		"EN": "maximum pending latency ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The maximum length of time a request must wait in the pending request queue before App Engine starts a new instance to serve it."
+	},
+
+	{
+		"EN": "unit testing ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A method by which individual units of code are tested to determine if they are fit for use."
+	},
+
+	{
+		"EN": "two-legged OAUTH ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Service account OAuth authentication process, by which an app authenticates to Google as itself."
+	},
+
+	{
+		"EN": "stage ",
+		"FI": " vaihe ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) fase ",
+		"CLASS": " noun ",
+		"DEF": " In terms of release pipelines, there may be three stages to a process: development, testing and production."
+	},
+
+	{
+		"EN": "Cloud Endpoints ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Google Cloud Endpoints consists of tools, libraries and capabilities that allow developers to generate APIs and client libraries from an App Engine application, referred to as an API backend, to simplify client access to data from other applications."
+	},
+
+	{
+		"EN": "multitenancy ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A software architecture in which one instance of an application, running on a remote server, serves many client organizations (also known as tenants). For more information on using multitenancy, see the Java and Python documentation."
+	},
+
+	{
+		"EN": "invitation ",
+		"FI": " kutsu ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) invitasjon ",
+		"CLASS": " noun ",
+		"DEF": " An email sent to a Cloud Console user inviting them to accept a role in a project. Roles include owner, editor and viewer."
+	},
+
+	{
+		"EN": "datastore index configuration ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A configuration file where you can specify the indexes that your application needs.  Context: the App Engine Datastore uses indexes for every query your application makes. The datastore updates these indexes whenever an entity changes, so the datastore quickly returns results to you when your application makes a query. To do this, the datastore needs to know in advance which queries the application will make."
+	},
+
+	{
+		"EN": "hypervisor ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A piece of computer software, firmware or hardware that creates and runs virtual machines."
+	},
+
+	{
+		"EN": "static files ",
+		"FI": " staattiset tiedostot ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) statiske filer ",
+		"CLASS": " noun ",
+		"DEF": " Static files are files to be served directly to the user for a given URL, such as images, CSS stylesheets, or JavaScript source files. Static file handlers describe which files in the application directory are static files, and which URLs serve them."
+	},
+
+	{
+		"EN": "read policy ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " In order to increase data availability, you can set the datastore read policy so that all reads and queries are eventually consistent. While the API also allows you to explicitly set a strong consistency policy, such a setting has no practical effect because non-ancestor queries are always eventually consistent regardless of policy."
+	},
+
+	{
+		"EN": "Developer Shell ",
+		"FI": " Kehittäjäliittymä ",
+		"SV": "(sv) Developer Shell ",
+		"DA": "(da) Developer Shell ",
+		"NO": "(no) Utviklergrensesnitt ",
+		"CLASS": " noun ",
+		"DEF": " Developer Shell is a command line development environment in the cloud. A user can connect to all of their projects and easily run commands to develop, deploy and manage their applications from Developer Shell."
+	},
+
+	{
+		"EN": "concurrency ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The condition where systems execute computations simultaneously, and these computations interact with each other."
+	},
+
+	{
+		"EN": "public/private key ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A pair of encryption keys comprising one “private” key typically for use by some entity and a “public” key typically for use by other entities wishing to communicate with the first entity. These keys are used in asymmetric encryption or signing operations."
+	},
+
+	{
+		"EN": "Notification endpoints ",
+		"FI": " Ilmoituksien päätepisteet ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) varselendepunkter ",
+		"CLASS": " noun ",
+		"DEF": " Notification endpoints are webhook URLs that are called to receive notifications on behalf of an API. This allows you to receive notifications from a given API when a certain event is triggered, rather than having to poll."
+	},
+
+	{
+		"EN": "App Engine Launcher ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An application that runs on your computer and provides a graphical interface that simplifies many common App Engine development tasks."
+	},
+
+	{
+		"EN": "disk ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A virtual disk in GCE."
+	},
+
+	{
+		"EN": "configuration file ",
+		"FI": " määritystiedosto ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) konfigurasjonsfil ",
+		"CLASS": " noun ",
+		"DEF": " All App Engine applications require a configuration file to set important details like the application ID and version number. Python and Go applications must use app.yaml as their main configuration file. Java applications can use either app.yaml or web.xml."
+	},
+
+	{
+		"EN": "denial of service protection service ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The App Engine denial of service (DoS) protection service allows you to protect your application from running out of quota when subjected to denial of service attacks or similar forms of abuse. You can blacklist IP addresses or subnets, and the service drops requests routed from those addresses or subnets before App Engine calls your code. DoS Protection can be configured for Java applications using either dos.xml or dos.yaml. Python and Go applications must use dos.yaml"
+	},
+
+	{
+		"EN": "snapshot isolation ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A guarantee that all reads made in a transaction will see a consistent snapshot of the database and the transaction itself will successfully commit only if no updates that it has made conflict with any concurrent updates made since that snapshot."
+	},
+
+	{
+		"EN": "query ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A request sent to a database in order to get information back from the database."
+	},
+
+	{
+		"EN": "High Replication Datastore ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The default data repository of the App Engine Datastore, providing high availability for reads and writes by storing data synchronously in multiple data centers."
+	},
+
+	{
+		"EN": "exploding index ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An index with high write costs resulting from entities with multiple property values. Custom indexes that refer to multiple properties with multiple values can get very large with only a few values. To completely record such properties, the index table must include a row for every combination of values of the indexed properties. Because exploding indexes contain so many values, they increase the amount of datastore CPU time that your application uses. The SDK attempts to detect exploding indexes and suggests an alternative, but in some cases you may require custom configuration."
+	},
+
+	{
+		"EN": "three-legged OAUTH ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " User-centric OAuth process, by which an application gets permission to act as a certain Google user against a Google API."
+	},
+
+	{
+		"EN": "address range ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A range of IP addresses; this is CIDR notation."
+	},
+
+	{
+		"EN": "commit ",
+		"FI": " lopullinen tallennus ",
+		"SV": "(sv) definitiv ändring ",
+		"DA": "(da) commit ",
+		"NO": "(no) commit ",
+		"CLASS": " noun ",
+		"DEF": " Noun. A commit refers to the saving of data permanently after a set of tentative changes. A commit is the final step in the successful completion of a previously started database change."
+	},
+
+	{
+		"EN": "Compute Engine ",
+		"FI": " Compute Engine ",
+		"SV": "(sv)  ",
+		"DA": "(da) Compute Engine ",
+		"NO": "(no) Compute Engine ",
+		"CLASS": " noun ",
+		"DEF": " Google Compute Engine runs VMs on Google's infrastructure at unmatched price/performance. See live website: https://cloud.google.com/products/compute-engine"
+	},
+
+	{
+		"EN": "Prediction API ",
+		"FI": " Prediction API ",
+		"SV": "(sv)  ",
+		"DA": "(da) Prediction API ",
+		"NO": "(no) Prediction API ",
+		"CLASS": " noun ",
+		"DEF": " Predict trends in large data sets. See live website: https://cloud.google.com/products/more-products"
+	},
+
+	{
+		"EN": "development console ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The development web server includes a console web application. With the console you can browse the local datastore."
+	},
+
+	{
+		"EN": "datastore call deadline ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The maximum amount of time your API call to the datastore can take. If your API call does not complete by the deadline, the datastore aborts with an error and returns control to your application."
+	},
+
+	{
+		"EN": "scheduler ",
+		"FI": " ajoitus ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) planleggingssystem ",
+		"CLASS": " noun ",
+		"DEF": " The App Engine scheduler controls how your application responds to increased load. As more requests come in, the scheduler might start up more servers or queue incoming requests."
+	},
+
+	{
+		"EN": "Users service ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The Users service provides APIs for your application to integrate with Google user accounts. With the Users service, your users can use the Google accounts they already have to sign in to your application."
+	},
+
+	{
+		"EN": "transaction isolation ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " In the App Engine Datastore, the isolation level means how much impact a query has on other simultaneous queries being executed. Preferably, each query must run in its own vacuum to avoid any concurrency issues."
+	},
+
+	{
+		"EN": "concurrency control ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Process ensuring that systems generate correct results for concurrent operations while getting those results as quickly as possible."
+	},
+
+	{
+		"EN": "webapp framework ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A simple web application framework that you can use for developing web applications for App Engine."
+	},
+
+	{
+		"EN": "watchpoint ",
+		"FI": " tarkkailupiste ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) sjekkpunkt ",
+		"CLASS": " noun ",
+		"DEF": " A watchpoint is a location in your source code that is watched by the Cloud Debugger.  When that line of code is executed, the values of visible local variables, etc. are recorded and displayed in the browser. Similar to a breakpoint, but executes without pausing the program. For more info see: https://cloud.google.com/tools/cloud-debugger?hl=en"
+	},
+
+	{
+		"EN": "quota ",
+		"FI": " kiintiö ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) kvote ",
+		"CLASS": " noun ",
+		"DEF": " An App Engine application can consume resources up to certain quotas. With these quotas, App Engine ensures that your application won't exceed your budget, and that other applications running on App Engine won't impact your application's performance."
+	},
+
+	{
+		"EN": "Google Cloud SQL ",
+		"FI": " Google Cloud SQL ",
+		"SV": "(sv)  ",
+		"DA": "(da) Google Cloud SQL ",
+		"NO": "(no) Google Cloud SQL ",
+		"CLASS": " noun ",
+		"DEF": " Google Cloud SQL is a web service that allows you to create, configure, and use relational databases that live in Google's cloud. It is a fully managed service that maintains, manages, and administers your databases, allowing you to focus on your applications and services. See live website: https://cloud.google.com/products/cloud-sql"
+	},
+
+	{
+		"EN": "web application archive ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Web application archives bundle web clients to deploy in browsers over the Internet. They contain server-side utility classes, HTML files, image & sound files, and client-side classes such as applets."
+	},
+
+	{
+		"EN": "safety limit ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Safety limits are resource maximums set by App Engine to ensure the integrity of the system. These resources describe the boundaries of the architecture, and App Engine expects all applications to run within the same limits."
+	},
+
+	{
+		"EN": "clone ",
+		"FI": " kloonata ",
+		"SV": "(sv) klona ",
+		"DA": "(da) klone ",
+		"NO": "(no) klone ",
+		"CLASS": " verb ",
+		"DEF": " To make a copy of a remote source code repository on a local machine."
+	},
+
+	{
+		"EN": "scratch disk ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Scratch disk is disk space attached to a VM instance in GCE that is tied to the lifetime of that instance."
+	},
+
+	{
+		"EN": "on-demand instance ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An instance that is started up and scaled down based on the current volume of requests to your application. This lets you avoid having to commit to using a certain number of instance hours. Compare reserved instances."
+	},
+
+	{
+		"EN": "BigQuery ",
+		"FI": " BigQuery ",
+		"SV": "(sv)  ",
+		"DA": "(da) BigQuery ",
+		"NO": "(no) BigQuery ",
+		"CLASS": " noun ",
+		"DEF": " A tool for rapidly querying large data sets. See live website: https://cloud.google.com/products/big-query"
+	},
+
+	{
+		"EN": "Kernel-based Virtual Machine ",
+		"FI": " Kernel-pohjainen virtuaalikone ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) kernel-basert virtuell maskin ",
+		"CLASS": " noun ",
+		"DEF": " KVM is a virtualization infrastructure for the Linux kernel. KVM requires a processor with a hardware virtualization extension."
+	},
+
+	{
+		"EN": "task queue ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An efficient and powerful tool for background processing; task queues allow your application to define tasks, add them to a queue, and then use the queue to process them in aggregate."
+	},
+
+	{
+		"EN": "token bucket ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " In App Engine task queues, the token bucket algorithm used by App Engine determines the rate at which the App Engine task queue processes push tasks."
+	},
+
+	{
+		"EN": "Google Cloud Storage ",
+		"FI": " Google Cloud Storage ",
+		"SV": "(sv)  ",
+		"DA": "(da) Google Cloud Storage ",
+		"NO": "(no) Google Cloud Storage ",
+		"CLASS": " noun ",
+		"DEF": " A Google service for storing data in the Cloud. See live website: https://cloud.google.com/products/cloud-storage/"
+	},
+
+	{
+		"EN": "monitoring ",
+		"FI": " seuranta ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) systemstatistikk ",
+		"CLASS": " noun ",
+		"DEF": " Statistics collected relating to instances or other cloud entities. e.g. CPU usage, network usage. Using this data, you can drive visualizations and alerts that can help you better understand your usage of Google Cloud products and assist you in detecting and investigating issues."
+	},
+
+	{
+		"EN": "development web server ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The App Engine SDK includes a development web server for testing your application on your computer. In Java, the development web server simulates the App Engine Java runtime environment and all of its services, including the datastore. In Python, the development web server simulates your application running in the App Engine Python runtime environment; this simulated environment enforces some sandbox restrictions such as restricted system functions and Python module imports. For Go, the development web server simulates the App Engine Go runtime environment and all Go's supported services."
+	},
+
+	{
+		"EN": "entity ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The datastore writes data in objects known as entities, and each entity has a key that identifies the entity."
+	},
+
+	{
+		"EN": "Google Plugin for Eclipse ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A set of software development tools that enables Java developers to quickly design, build, optimize, and deploy cloud-based applications. GPE allows you to easily create and deploy App Engine applications."
+	},
+
+	{
+		"EN": "Java Archive (JAR) ",
+		"FI": " Java-arkisto (JAR) ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Java-arkiv (JAR) ",
+		"CLASS": " noun ",
+		"DEF": " A Java Archive (JAR) combines multiple files into one usually to distribute Java applications or Java libraries over the Internet."
+	},
+
+	{
+		"EN": "scope ",
+		"FI": " käyttöoikeus ",
+		"SV": "(sv) omfattning ",
+		"DA": "(da) omfang ",
+		"NO": "(no) scope ",
+		"CLASS": " noun ",
+		"DEF": " A scope is a permission setting used in a script to specify authorization and access to Google's services. https://cloud.google.com/compute/docs/authentication"
+	},
+
+	{
+		"EN": "task queues ",
+		"FI": " tehtäväjonot ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) oppgavekøer ",
+		"CLASS": " noun ",
+		"DEF": " Task queues enable your applications to schedule tasks to be done later in the background. As such, your application defines tasks, adds them to a queue, and then uses the queue to process them in aggregate."
+	},
+
+	{
+		"EN": "Memcacheg (also different!) ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The Google version of the popular memcached server, an in-memory cache server. Memcacheg is integrated with Borg and a better choice than Memcached for Google products."
+	},
+
+	{
+		"EN": "concurrent request ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Multiple requests sent in parallel to a web server. Concurrent requests are supported by Java, Python 2.7 and Go."
+	},
+
+	{
+		"EN": "Capabilities API ",
+		"FI": " Toiminnallisuus-sovellusliittymä ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Funksjonalitets-API ",
+		"CLASS": " noun ",
+		"DEF": " With the Capabilities API, your application can detect outages and scheduled downtime for specific API capabilities. With this information, you can disable the unavailable capability in your application before it impacts your users."
+	},
+
+	{
+		"EN": "client ID ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A publicly known identification of the caller of an API."
+	},
+
+	{
+		"EN": "Channel API ",
+		"FI": " Kanava-sovellusliittymä ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) kanal-API ",
+		"CLASS": " noun ",
+		"DEF": " The channel API creates a persistent connection between your application and Google servers, allowing your application to send messages to JavaScript clients in real time without the use of polling. This is useful for applications designed to update users about new information immediately. Some example scenarios are collaborative applications, multi-player games, or chat rooms."
+	},
+
+	{
+		"EN": "Google Compute Engine ",
+		"FI": " Google Compute Engine ",
+		"SV": "(sv)  ",
+		"DA": "(da) Google Compute Engine ",
+		"NO": "(no) Google Compute Engine ",
+		"CLASS": " noun ",
+		"DEF": " Google Compute Engine runs VMs on Google's infrastructure at unmatched price/performance. See live website: https://cloud.google.com/products/compute-engine"
+	},
+
+	{
+		"EN": "Cloud Datastore ",
+		"FI": " Cloud Datastore ",
+		"SV": "(sv) Cloud Datastore ",
+		"DA": "(da) Cloud Datastore ",
+		"NO": "(no) Cloud Datastore ",
+		"CLASS": " noun ",
+		"DEF": " Service name; please leave in English. Cloud Datastore is a fully managed, schemaless datastore for storing non-relational data. Cloud Datastore automatically scales with your users and supports transactions, as well as robust queries."
+	},
+
+	{
+		"EN": "static file ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A file (such as system configuration file and binary) that does not change without an action from the system administrator or an agent that the system administrator has allowed to perform the task."
+	},
+
+	{
+		"EN": "datastore index ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Every datastore query uses an index, a table containing the results for the query in the desired order."
+	},
+
+	{
+		"EN": "client secret ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A secret that only the client knows such that it can be uniquely identified."
+	},
+
+	{
+		"EN": "instance ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A virtual machine running in GCE."
+	},
+
+	{
+		"EN": "ancestor query ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A query over a single entity group using the key of a parent entity."
+	},
+
+	{
+		"EN": "Cloud Storage ",
+		"FI": " Cloud Storage ",
+		"SV": "(sv)  ",
+		"DA": "(da) Cloud Storage ",
+		"NO": "(no) Cloud Storage ",
+		"CLASS": " noun ",
+		"DEF": " A Google service for storing data in the Cloud. See live website: https://cloud.google.com/products/cloud-storage/"
+	},
+
+	{
+		"EN": "service stub ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A method that simulates the behavior of a service in the SDK. Both Java and Python support service stubs."
+	},
+
+	{
+		"EN": "external IP ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The public (internet facing) IP address of a GCE instance."
+	},
+
+	{
+		"EN": "Cloud Security Scanner ",
+		"FI": " Cloud Security Scanner ",
+		"SV": "(sv) Cloud Security Scanner ",
+		"DA": "(da) Cloud Security Scanner ",
+		"NO": "(no) Cloud Security Scanner ",
+		"CLASS": " noun ",
+		"DEF": " The Google Cloud Security Scanner identifies security vulnerabilities in your Google App Engine web applications. It crawls your application, following all links within the scope of your starting URLs, and attempts to exercise as many user inputs and event handlers as possible. NOTES: Please keep in English for all languages."
+	},
+
+	{
+		"EN": "Distributed Application Execution (Dax) ",
+		"FI": " Hajautettu sovellusten suorittaminen (Dax) ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Distributed Application Execution ",
+		"CLASS": " noun ",
+		"DEF": " Provides a foundation for Distributed Application eXecution for data processing and analysis tools like Flume, MapReduce, MillWheel, Patch Panel and Pregel. Dax is currently in the development phase."
+	},
+
+	{
+		"EN": "filter class ",
+		"FI": " suodatinluokka ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) filterklasse ",
+		"CLASS": " noun ",
+		"DEF": " A filter is code that takes input data, makes a specific decision about it and possible transformation of it, and passes it on to another program in a kind of pipeline. The filter class element tells the servlet (a small program that runs on a server) how to establish the parameters for the filter."
+	},
+
+	{
+		"EN": "Java Servlet ",
+		"FI": " Java Servlet ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Java-servlet ",
+		"CLASS": " noun ",
+		"DEF": " A servlet is a Java programming language class used to extend the capabilities of servers that host applications accessed via a request-response programming model. Although servlets can respond to any type of request, you commonly use them to extend the applications hosted by web servers. When App Engine receives a web request from your application, it invokes the servlet that corresponds to the URL as described in your application's deployment descriptor. It uses the Java Servlet API to provide the request data to the servlet, and accept the response data."
+	},
+
+	{
+		"EN": "blob ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Acronym for Binary Large Object. Either a large data object in the blobstore API, or a property type in the datastore API."
+	},
+
+	{
+		"EN": "billable quota ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Billable quotas are resource maximums set by the application administrator to prevent the cost of the application from exceeding budget."
+	},
+
+	{
+		"EN": "owner ",
+		"FI": " omistaja ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) eier ",
+		"CLASS": " noun ",
+		"DEF": " A user with an Access Control List allowing them full control over a project."
+	},
+
+	{
+		"EN": "frontend instance ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An instance running your code and scaling dynamically based on the incoming requests but limited in how long a request can run."
+	},
+
+	{
+		"EN": "cron job ",
+		"FI": " cron-tehtävä ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) cron-jobb ",
+		"CLASS": " noun ",
+		"DEF": " The App Engine cron service allows users to create tasks to run at regular intervals. Cron jobs are supported by Java, Python and Go. The software utility Cron is a time-based job scheduler in Unix-like computer operating systems. People who set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals."
+	},
+
+	{
+		"EN": "clone ",
+		"FI": " klooni ",
+		"SV": "(sv) klon ",
+		"DA": "(da) klon ",
+		"NO": "(no) klone ",
+		"CLASS": " noun ",
+		"DEF": " A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere. With a clone you can edit the files in your preferred editor and use [a source version control system like] Git to keep track of your changes without having to be online."
+	},
+
+	{
+		"EN": "Memcached (different than Memcache!): ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load."
+	},
+
+	{
+		"EN": "role ",
+		"FI": " rooli ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) rolle ",
+		"CLASS": " noun ",
+		"DEF": " App Engine provides three roles�Viewer, Developer, Owner�supplying different levels of access to administration console features. Each progressively stronger role includes all permissions from the previous role."
+	},
+
+	{
+		"EN": "datastore ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Google App Engine uses a datastore to distribute, replicate, and load balance your data through a simple API. It also includes a powerful query engine and processes transactions. Java, Python and Go can all make use of the datastore."
+	},
+
+	{
+		"EN": "root entity ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A datastore entity without a parent. Root entities may serve as a parent entity for an entity group."
+	},
+
+	{
+		"EN": "project ",
+		"FI": " projekti ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) prosjekt ",
+		"CLASS": " noun ",
+		"DEF": " A Cloud Console project. An organizational unit under which various resources, such as Google Compute Engine instances, are provisioned."
+	},
+
+	{
+		"EN": "transaction ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " An operation or set of operations that is atomic – either all of the operations in the transaction occur, or none of them occur. An application can perform multiple operations and calculations in a single transaction."
+	},
+
+	{
+		"EN": "Go Programming Language ",
+		"FI": " Go-ohjelmointikieli ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Go-programmeringsspråket ",
+		"CLASS": " noun ",
+		"DEF": " Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. See: http://golang.org/"
+	},
+
+	{
+		"EN": "vCPU ",
+		"FI": " vCPU ",
+		"SV": "(sv) vCPU ",
+		"DA": "(da) vCPU ",
+		"NO": "(no) vCPU ",
+		"CLASS": " noun ",
+		"DEF": " Abbreviation of: “virtual central processing unit” or “virtual central processor unit”. This refers to a virtual machine's virtual processor. A physical central processing unit (CPU) that is assigned to a virtual machine (VM)."
+	},
+
+	{
+		"EN": "Google Cloud Datastore ",
+		"FI": " Google Cloud Datastore ",
+		"SV": "(sv) Google Cloud Datastore ",
+		"DA": "(da) Google Cloud Datastore ",
+		"NO": "(no) Google Cloud Datastore ",
+		"CLASS": " noun ",
+		"DEF": " Google Cloud Datastore is a fully managed, NoSQL, schemaless database for storing non-relational data. Cloud Datastore automatically scales with your users and supports transactions, as well as robust queries. See: https://cloud.google.com/products/datastore"
+	},
+
+	{
+		"EN": "minimum pending latency ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The minimum amount of time a request can wait in the pending queue before being served by an instance."
+	},
+
+	{
+		"EN": "content delivery network ",
+		"FI": " sisällönjakeluverkko ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) innholdsleveringsnettverk ",
+		"CLASS": " noun ",
+		"DEF": " Also known as CDN, is a collection of web content (images, videos, HTML, etc) that is distributed across multiple locations, such as data centers all over the world, to deliver content more efficiently to users."
+	},
+
+	{
+		"EN": "service account ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A particular type of Google account intended to represent applications as opposed to users. Its primarily goal is for server-to-server authentication."
+	},
+
+	{
+		"EN": "Google Cloud Monitoring API ",
+		"FI": " Google Cloud Monitoring API ",
+		"SV": "(sv) Google Cloud Monitoring API ",
+		"DA": "(da) Google Cloud Monitoring API ",
+		"NO": "(no) Google Cloud Monitoring API ",
+		"CLASS": " noun ",
+		"DEF": " Monitoring product for the Google Cloud platform. Allows users to review performance metrics for Google Cloud resources (such as App Engine and Compute Engine). Also allows users to monitor common open source services such as MongoDB, Apache, Nginx, and Cassandra. Define alerting rules to fit your application and receive alerts based on single metric or aggregate across resources. NOTES: Please keep in English for all languages"
+	},
+
+	{
+		"EN": "click-to-deploy ",
+		"FI": " klikkaamalla käyttöön otettava ",
+		"SV": "(sv) klicka och använda ",
+		"DA": "(da) klik for at implementere ",
+		"NO": "(no) (med) ett-klikks implementering ",
+		"CLASS": " noun ",
+		"DEF": " Process designed to help developers get a development or test environment running quickly. E.g. click-to-deploy software packages."
+	},
+
+	{
+		"EN": "key ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A key is a unique identifier for each entity in the datastore. Keys consist of a kind, a unique name assigned either by the app or the datastore, and an optional ancestor path that specifies a parent entity."
+	},
+
+	{
+		"EN": "virtualization ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The mechanism of emulating physical resources for the purposes of security, simplification, isolation and efficiency. Multiple virtual computers can be packed on to a single physical computer. Or multiple virtual networks can be implemented on top of a single physical network."
+	},
+
+	{
+		"EN": "bucket ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A top-level folder for Google Cloud Storage. Bucket names must be unique across all users of GCS. Buckets contain files and folder."
+	},
+
+	{
+		"EN": "persistent disk ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A persistent disk is a persistent storage device that outlives an instance. A persistent disk looks like any other disk to the instance, but its data is not lost when the instance shuts down or fails."
+	},
+
+	{
+		"EN": "location ",
+		"FI": " sijainti ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) posisjon ",
+		"CLASS": " noun ",
+		"DEF": " Google Cloud Platform resources are hosted in multiple locations world-wide. These locations are composed of regions and zones within those regions.�Location is a synonym for zone in Google Compute Engine."
+	},
+
+	{
+		"EN": "asynchronous ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " adjective ",
+		"DEF": " Describes events that do not occur at exactly the same time or rate. In the context of replication mode, this means that changes are propagated asynchronously across stores, resulting in eventual consistency."
+	},
+
+	{
+		"EN": "Java development server ",
+		"FI": " Java-kehityspalvelin ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) Java-utviklingsserver ",
+		"CLASS": " noun ",
+		"DEF": " The App Engine Java SDK includes a development web server for testing your application on your computer. The development web server simulates the App Engine Java runtime environment and all of its services, including the Datastore."
+	},
+
+	{
+		"EN": "machine type ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Google Compute Engine provides several hardware configurations to choose from, with different combinations of CPU, RAM, and disk space."
+	},
+
+	{
+		"EN": "URL fetch service ",
+		"FI": " URL-osoitteen noutopalvelu ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) tjeneste for nettadressehenting ",
+		"CLASS": " noun ",
+		"DEF": " App Engine applications can communicate with other applications or access other resources on the web by fetching URLs. An application can use the URL fetch service to issue HTTP and HTTPS requests and receive responses. The URL Fetch service is supported in Java, Python and Go."
+	},
+
+	{
+		"EN": "application ID ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A unique name that you choose when you create your application."
+	},
+
+	{
+		"EN": "relational database ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A collection of data items organized as a set of formally described tables from which data can be accessed easily."
+	},
+
+	{
+		"EN": "kindless query ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Type of query where App Engine Datastore returns all entities matching query constraints regardless of kind."
+	},
+
+	{
+		"EN": "thin provisioning ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Process of using virtualization technology to give the appearance of having more physical resources than are actually available. For example, real memory in a computer is typically thin provisioned to running tasks with some form of address translation technology doing the virtualization. Each task believes that it has real memory allocated. The sum of the allocated virtual memory assigned to tasks is typically greater than the total of real memory."
+	},
+
+	{
+		"EN": "deployment descriptor ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A file called web.xml used by Java web applications to determine how URLs map to servlets, which URLs require authentication, and other information."
+	},
+
+	{
+		"EN": "virtual machine ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Emulation of a machine using part of the resources of a physical machine. Many virtual machines may be packed into a single physical machine and, eventually, these can be migrated from one physical machine to another."
+	},
+
+	{
+		"EN": "asynchronous datastore ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The asynchronous datastore API allows you to make parallel, non-blocking calls to the datastore and retrieve the results of these calls at a later point in the handling of the request. This API is available in both Java and Python."
+	},
+
+	{
+		"EN": "query cursor ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Query cursors allow an application to perform a query and retrieve a batch of results, then fetch additional results for the same query in a subsequent web request without the overhead of a query offset. After the application fetches some results for a query, it can ask for an encoded string that represents the location in the result set after the last result fetched (the cursor). The application can use the cursor to fetch additional results starting from that point at a later time. Query cursors are supported in both Java and Python."
+	},
+
+	{
+		"EN": "ephemeral disk ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Similar to “scratch disk”. This is disk space attached to a VM instance in GCE that is tied to the lifetime of that instance."
+	},
+
+	{
+		"EN": "Google Prediction API ",
+		"FI": " Google Prediction API ",
+		"SV": "(sv)  ",
+		"DA": "(da) Google Prediction API ",
+		"NO": "(no) Google Prediction API ",
+		"CLASS": " noun ",
+		"DEF": " Predict trends in large data sets. See live website: https://cloud.google.com/products/more-products"
+	},
+
+	{
+		"EN": "PatchPanel ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A workflow management and execution system that provides a general, simple-to-use, flexible, and supported workflow environment."
+	},
+
+	{
+		"EN": "snapshot ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A moment-in-time snapshot of a GCE (Google Compute Engine) disk."
+	},
+
+	{
+		"EN": "cache hit ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Situation that occurs when the application looks for data in the cache and finds it there."
+	},
+
+	{
+		"EN": "partitioning ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " Process of dividing a database or its constituting elements into distinct independent parts, typically for the purposes of improving manageability or performance."
+	},
+
+	{
+		"EN": "appstats ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A suite of tools for measuring the performance of your application. Appstats integrates with your application to record events, and it provides a web-based administrative interface for browsing statistics."
+	},
+
+	{
+		"EN": "backend ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " In the context of App Engine, this refers to a user's application code that runs on App Engine."
+	},
+
+	{
+		"EN": "time to live (TTL) ",
+		"FI": " elinaika (TTL) ",
+		"SV": "(sv) TTL-värde (Time to Live) ",
+		"DA": "(da) levetid (TTL, time to live) ",
+		"NO": "(no) levetid (TTL) ",
+		"CLASS": " noun ",
+		"DEF": " Time to live (TTL) is a limit on the lifespan of data in a computer or network. The idea behind having a TTL is to prevent any data packet from circulating indefinitely."
+	},
+
+	{
+		"EN": "sharding ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A means of partitioning data in a database."
+	},
+
+	{
+		"EN": "CLAM ",
+		"FI": " CLAM ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) CLAM ",
+		"CLASS": " noun ",
+		"DEF": " Abbreviation for: Cloud Logging, Alerting and Monitoring. This is the internal team for providing and unifying Logging, Alerting, and Monitoring for all Google Cloud Platform products."
+	},
+
+	{
+		"EN": "zone ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " A location that resources are tied to. Some resources (such as persistent disks in GCE) can only be used within a zone. All resources in a zone share common systems. Zones are built to operate independently such that if there are issues in one zone (hardware or software) it won't spill over and impact other zones. In addition, access to resources within a zone are cheap or free and very fast. Logically a zone is inside of a region."
+	},
+
+	{
+		"EN": "reserved instances ",
+		"FI": " varatut instanssit ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) reserverte forekomster ",
+		"CLASS": " noun ",
+		"DEF": " Instances that are always available to your application. When you sign up for reserved instances, you pre-commit to paying for a certain number of instance-hours per week, even if you don't use them all. Compare: on-demand instances."
+	},
+
+	{
+		"EN": "on-demand instances ",
+		"FI": " tilattavat instanssit ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no) forekomster på forespørsel ",
+		"CLASS": " noun ",
+		"DEF": " Instances that are started up and scaled down based on the current volume of requests to your application. This lets you avoid having to commit to using a certain number of instance hours. Compare: reserved instances."
+	},
+
+	{
+		"EN": "internal IP ",
+		"FI": "  ",
+		"SV": "(sv)  ",
+		"DA": "(da)  ",
+		"NO": "(no)  ",
+		"CLASS": " noun ",
+		"DEF": " The IP address of a GCE instance in the GCE private network. GCE instances can communicate with each other on the internal IP addresses."
+	}
+]

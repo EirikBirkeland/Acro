@@ -1,0 +1,22 @@
+Here is a plan of things to do sometime.
+
+{1} Fixing manually headers of files where header row does not coincide with actual file data.
+
+{3} General: Give sane output for operations (number of files treated, any serious fails, etc.)
+
+{4} Put date and domain into file fields.
+
+{5} Check header row with each file and detect "invalid" rows
+    E.g. "ja" should match with Japanese/Chinese characters in unicode range, and Russian should have some cyrillic.
+
+{6} Use uchardet to detect file encoding of input files, only proceed if valid
+
+{7} Compare old glossaries to new glossaries, after converting
+the formats to be identical, then extract any differences into a custom "changes" list.
+
+{8} Figure out why a few of the small files fail to convert - perhaps there is a pattern to them, so that they can easily be included in conversion.
+	{followup} - Things go wrong when the fields are detected in a different order *maybe*
+                     Things go wrong when some of the expected fields are missing.
+                         Solution: Absolute values for awk section instead of relative $1 $2 $3.. would be good.
+                         To try: Make dummy files and test the program on it to see how it works, then modify
+                                 until success.

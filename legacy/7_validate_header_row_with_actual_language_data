@@ -1,0 +1,74 @@
+Confirmed to be useful for checking header accuracy:
+
+(\p{Thai}) # matches any thai, confirmed in regex101.com
+(\p{Han}) # matches any kanji/hanzi
+(\p{Hebrew})|(\p{Armenian})
+(\p{Bengali})
+(\p{Gujarati})
+(\p{Greek})
+(\p{Hiragana})
+(\p{Hangul})
+(\p{Katakana})|
+(\p{Kannada})
+(\p{Malayalam})|
+(\p{Tamil})
+(\p{Telugu})
+
+TODO: Make sure the above scripts are used for single specific language.
+
+Ones with several language hits, or no matching [hence cannot determine a specific language reliably]:
+
+(\p{Arabic})
+(\p{Cyrillic})
+(\p{Devanagari})
+The rest can also be inserted in (\p{}) :
+(\p{Avestan})|(\p{Balinese})|(\p{Bamum})|(\p{Batak})
+(\p{Bopomofo})|(\p{Brahmi})|(\p{Braille})|(\p{Buginese})|(\p{Buhid})
+(\p{Canadian_Aboriginal})|(\p{Carian})|(\p{Chakma})|(\p{Cham})|(\p{Cherokee})
+(\p{Coptic})|(\p{Cuneiform})|(\p{Cypriot})|(\p{Deseret})
+|(\p{Egyptian_Hieroglyphs})|(\p{Ethiopic})|(\p{Georgian})|(\p{Glagolitic})
+(\p{Gothic})|(\p{Gujarati})|(\p{Gurmukhi})|(\p{Han})
+(\p{Hanunoo})|(\p{Imperial_Aramaic})
+(\p{Inherited})|(\p{Inscriptional_Pahlavi})|(\p{Inscriptional_Parthian})|(\p{Javanese})|(\p{Kaithi})
+(\p{Kayah_Li})|(\p{Kharoshthi})|(\p{Khmer})
+(\p{Lao})|(\p{Lepcha})|(\p{Limbu})|(\p{Linear_B})
+(\p{Lisu})|(\p{Lycian})|(\p{Lydian})|(\p{Mandaic})
+(\p{Meetei_Mayek})|(\p{Meroitic_Cursive})|(\p{Meroitic_Hieroglyphs})|(\p{Miao})|(\p{Mongolian})
+(\p{Myanmar})|(\p{New_Tai_Lue})|(\p{Nko})|(\p{Ogham})|(\p{Ol_Chiki})
+(\p{Old_Italic})|(\p{Old_South_Arabian})|(\p{Old_Turkic})|(\p{Oriya})|(\p{Osmanya})
+(\p{Phags_Pa})|(\p{Phoenician})|(\p{Rejang})|(\p{Runic})|(\p{Samaritan})
+(\p{Saurashtra})|(\p{Sharada})|(\p{Shavian})|(\p{Sinhala})|(\p{Sora_Sompeng})
+(\p{Sundanese})|(\p{Syloti_Nagri})|(\p{Syriac})|(\p{Tagalog})|(\p{Tagbanwa})
+(\p{Tai_Le})|(\p{Tai_Tham})|(\p{Tai_Viet})|(\p{Takri})
+(\p{Thaana})|(\p{Tibetan})|(\p{Tifinagh})
+(\p{Ugaritic})|(\p{Vai})|(\p{Yi})
+
+Working but probably not useful in this case:
+(\p{Common})
+(\p{Latin})
+
+Not working in regex101.com
+(\p{Caucasian_Albanian})
+(\p{Bassa_Vah})
+(\p{Duployan})
+(\p{Elbasan})
+(\p{Grantha})
+(\p{Khojki})
+(\p{Khudawadi})
+(\p{Linear_A})
+(\p{Mahajani})
+(\p{Manichaean})
+(\p{Mende_Kikakui})
+(\p{Modi})
+(\p{Mro})
+(\p{Nabataean})
+(\p{Old_Persian})
+(\p{Old_Permic})
+(\p{Pahawh_Hmong})
+(\p{Palmyrene})
+(\p{Pau_Cin_Hau})
+(\p{Psalter_Pahlavi})
+(\p{Siddham})
+(\p{Tirhuta})
+(\p{Warang_Citi})
+(\p{Old_North_Arabian})

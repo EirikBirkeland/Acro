@@ -1,0 +1,61 @@
+#/usr/local/bin/python
+import csv
+import sys
+
+class DevNull:
+    def write(self, msg):
+        pass
+
+sys.stderr = DevNull()
+
+input1 = sys.argv[1] # Assigns the 1st command line argument to variable input1.
+input2 = sys.argv[2] # Does the same for 2nd command line argument.
+
+with open(input1, encoding='utf-8') as csvfile: # Opens the csv file specified as the first argument.
+    mycsv = csv.DictReader(csvfile) # Parses the opened csv file into the csv module's format
+    
+    if input2 == 'no':
+        for row in mycsv:
+                print(row['en'],'\t') if 'en' in row
+                print(row['no'],'\t') if 'no' in row
+                print('(da)',row['da'],'\t') if 'da' in row
+                print('(sv)',row['sv'],'\t') if 'sv' in row
+                print('(fi)',row['fi'],'\t') if 'fi' in row
+                print(row['pos'],'\t') if 'pos' in row
+                print(row['description']) if 'description' in row
+
+    if input2 == 'da':
+        for row in mycsv:
+                print(row['en'],'\t') if 'en' in row
+                print(row['da'],'\t') if 'da' in row
+                print('(no)',row['no'],'\t') if 'no' in row
+                print('(sv)',row['sv'],'\t') if 'sv' in row
+                print('(fi)',row['fi'],'\t') if 'fi' in row
+                print(row['pos'],'\t') if 'pos' in row
+                print(row['description']) if 'description' in row
+    if input2 == 'sv':
+        for row in mycsv: # For each row, do the following:
+                print(row['en'],'\t') if 'en' in row
+                print(row['sv'],'\t') if 'sv' in row
+                print('(da)',row['da'],'\t') if 'da' in row
+                print('(no)',row['nov'],'\t') if 'no' in row
+                print('(fi)',row['fi'],'\t') if 'fi' in row
+                print(row['pos'],'\t') if 'pos' in row
+                print(row['description']) if 'description' in row
+   
+    if input2 == 'fi':
+        for row in mycsv:
+                print(row['en'],'\t') if 'en' in row
+                print(row['fi'],'\t') if 'fi' in row
+                print('(sv)',row['sv'],'\t') if 'sv' in row
+                print('(da)',row['da'],'\t') if 'da' in row
+                print('(no)',row['no'],'\t') if 'no' in row
+                print(row['pos'],'\t') if 'pos' in row
+                print(row['description']) if 'description' in row
+
+    if input2 == 'ja': # This is for conversion into Japanese, which I thought to keep as a last resort reference.
+        for row in mycsv:
+                print(row['en'],'\t') if 'en' in row
+                print(row['ja'],'\t') if 'ja' in row
+                print(row['pos'],'\t') if 'pos' in row
+                print(row['description']) if 'description' in row
